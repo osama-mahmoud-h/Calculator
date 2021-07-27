@@ -13,6 +13,9 @@ button.forEach((btn)=>{
 // get input value
 var input=document.querySelector(".expression");
 var inputarr=new Array();
+//focus on input in start
+input.focus();
+
 ///add event click
 document.addEventListener("click",(e)=>{
            //get textcontent of button
