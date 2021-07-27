@@ -1,25 +1,40 @@
-/*p{
-    color: red;
-}
-p.para{
-    color:aliceblue;
-}
-.test {
-    background-color: #11abda;
-}
-.t2{
-color:gold;
-}*/
+
 *{
     box-sizing: border-box;
+    
+}
+
+.info{
+    width:300px ;
+    float: left;
+    min-width: 400px;
+    padding: 30px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-family: Tahoma, sans-serif;
+
+}
+.info h2{
+    font-weight: 300;
+    color:rgb(2, 2, 36)
+}
+.info p{
+    color: rgba(66, 65, 65, 0.788);
+    line-height: 1.5;
+}
+.info span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet
 }
 .calc{
     background-color: rgba(34, 34, 34, 0.8);
     width: 230px;
+    min-width:230px;
     height:300px;
     padding:10px;
     border-radius: 10px;
-    margin: auto;
+    float: left;
+    margin:50px auto
 }
 .calc button{
     background-color: rgba(37, 33, 34, 0.801);
