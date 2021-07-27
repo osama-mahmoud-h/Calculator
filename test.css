@@ -1,0 +1,62 @@
+/*p{
+    color: red;
+}
+p.para{
+    color:aliceblue;
+}
+.test {
+    background-color: #11abda;
+}
+.t2{
+color:gold;
+}*/
+*{
+    box-sizing: border-box;
+}
+.calc{
+    background-color: rgba(34, 34, 34, 0.8);
+    width: 230px;
+    height:300px;
+    padding:10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.calc button{
+    background-color: rgba(37, 33, 34, 0.801);
+    outline: none;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.calc input{
+    width: 100%;
+    height:50px;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    height: 80px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    color:gray;
+}
+.calc .expression.disabled{
+    pointer-events: none;
+}
+.calc input:focus{
+    border: none;
+    outline: none;
+}
+button{
+    display: block;
+    width: 24%;
+    float: left;
+    padding: 6px;
+    margin: 1px;
+    border-radius: 10px;
+    margin-top:8px;
+}
